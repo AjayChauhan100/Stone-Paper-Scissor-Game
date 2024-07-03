@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Stone.png" type="image/x-icon">
+    <title>Game</title>
+    <link rel="stylesheet" href="stone.css">
+    <script src="paper.js" defer></script>
+</head>
+
+<body>
+    <h1 class="head">Choose :</h1>
+    <div class="game">
+        <div class="rock">
+            <img class="0" src="Stone.png" alt="">
+            <span>Rock</span>
+        </div>
+        <div class="paper">
+            <img class="1" src="Paper.png" alt="">
+            <span>Paper</span>
+        </div>
+        <div class="scissor">
+            <img class="2" src="Scissor.png" alt="">
+            <span>Scissor</span>
+        </div>
+    </div>
+    <div class="score">
+        <div class="won">Won = 0 |</div>
+        <div class="lose">Lost = 0 |</div>
+        <div class="draw">Draw=0 </div>
+    </div>
+    <span class="refresh">Restart the game</span>
+
+    <audio id="winingSound" src="win1.mp3" preload="auto"></audio>
+    <audio id="drawSound" src="draw1.mp3" preload="auto"></audio>
+    <audio id="losingSound" src="lose1.mp3" preload="auto"></audio>
+
+</body>
+
+</html>

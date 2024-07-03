@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 370px) {
+    body {
+        font-size: 10px;
+    }
+
+    h1 {
+        margin-top: 1%;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 3em;
+    }
+
+    .game {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+        margin-left: 30%;
+        gap: 2em;
+        align-items: flex-start;
+    }
+
+    .game div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .game div:hover {
+        cursor: pointer;
+        opacity: 0.6;
+    }
+
+    .game div span {
+        font-weight: bolder;
+        font-size: 2em;
+    }
+
+    img[src="Stone.png"] {
+        height: 8em;
+        width: 10em;
+    }
+
+    img[src="Paper.png"] {
+        height: 8em;
+        width: 10em;
+    }
+
+    img[src="Scissor.png"] {
+        height: 6em;
+        width: 14em;
+    }
+
+    .score {
+        display: flex;
+        gap: 1em;
+        margin-left: 20%;
+    }
+
+    .score div {
+        margin-top: 7%;
+        margin-bottom: 7%;
+        font-size: 2em;
+        color: grey;
+    }
+
+    .refresh {
+        border: 1px solid black;
+        background-color: rgb(230, 228, 228);
+        font-size: 1.5em;
+        margin-left: 32%;
+        padding: 0.3em;
+    }
+
+    .refresh:hover {
+        cursor: pointer;
+        background-color: rgb(121, 120, 120);
+        color: white;
+    }
+}
+
+
+@media screen and (min-width:768px){
+    body{
+        font-size: 14px;
+    }
+
+    .game {
+        flex-direction: row;
+        margin-top: 10%;
+        margin-left: 12%;
+        align-items: end;
+        gap: 3em;
+    }
+
+    img[src="Stone.png"] {
+        height: 9em;
+        width: 11em;
+    }
+
+    img[src="Paper.png"] {
+        height: 9em;
+        width: 12em;
+    }
+
+    img[src="Scissor.png"] {
+        height: 6em;
+        width: 14em;
+    }
+
+    .score {
+        margin-left: 28%;
+    }
+    .score div{
+        margin-top: 5%;
+        margin-bottom: 20%;
+    }
+
+    .refresh {
+        margin-left: 42%;  
+    }
+}
+
+
+@media screen and (min-width:1024px){
+    body{
+        font-size: 16px;
+    }
+h1{
+    font-size: 5em;
+    margin-top: 3%;
+}
+    .game {
+        flex-direction: row;
+        margin-top: 7%;
+        margin-left: 15%;
+        align-items: end;
+        gap: 4em;
+    }
+
+    img[src="Stone.png"] {
+        height: 11em;
+        width: 15em;
+    }
+
+    img[src="Paper.png"] {
+        height: 11em;
+        width: 16em;
+    }
+
+    img[src="Scissor.png"] {
+        height: 9em;
+        width: 20em;
+    }
+
+    .score {
+        margin-left: 55%;
+    }
+
+    .score div{
+        margin-top: 5%;
+        margin-bottom: 6%;
+    }
+
+    .refresh {
+        margin-left: 42%;  
+    }
+}
